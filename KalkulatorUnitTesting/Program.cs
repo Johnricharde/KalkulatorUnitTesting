@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var kalkulator = new Kalkulator();
+            Console.WriteLine(kalkulator.Divider(8, 0));
         }
     }
 }
